@@ -30,6 +30,10 @@ Desenvolvi dois módulos de raciocínio especializado:
 
 - **mcp-banco-imagens** — servidor MCP de busca semântica de imagens por embedding (Gemini Vision + Gemini Embeddings), multi-namespace e reutilizável por qualquer projeto
 
+## Qualidade Visual
+
+- **skill-validar-arte-visual** — valida peça visual antes de publicar (12 critérios + 10 regras complementares + relatório estruturado de 6 seções), desacoplada de cliente ou ferramenta de geração
+
 ## Marca Certa Digital
 
 - **skill-marca-certa-respostas** — engine genérica de respostas calibrada por brand profile (79 respostas aprovadas no primeiro ciclo)
