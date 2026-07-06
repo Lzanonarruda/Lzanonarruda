@@ -26,6 +26,10 @@ Desenvolvi dois módulos de raciocínio especializado:
 - **skill-modulo-raciocinio-estrutural** — módulo cognitivo com arquitetura de 7 zonas funcionais
 - **skill-modulo-raciocinio-decisorio** — módulo de decisão validado em suíte de 10 cenários (10/10 aprovados)
 
+## MCP
+
+- **mcp-banco-imagens** — servidor MCP de busca semântica de imagens por embedding (Gemini Vision + Gemini Embeddings), multi-namespace e reutilizável por qualquer projeto
+
 ## Marca Certa Digital
 
 - **skill-marca-certa-respostas** — engine genérica de respostas calibrada por brand profile (79 respostas aprovadas no primeiro ciclo)
