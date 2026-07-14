@@ -42,7 +42,7 @@ Desenvolvi dois módulos de raciocínio especializado:
 
 - **skill-marca-certa-respostas** — engine genérica de respostas calibrada por brand profile (79 respostas aprovadas no primeiro ciclo)
 
-## Sistema de Conteúdo — Autoescola Penha Car
+## Sistema de Conteúdo
 
 4 skills de conteúdo regidas por especificação de marca compartilhada (brand-profile + matriz de templates) e orquestradas por skill de calendário mensal — hoje integrando post único e carrossel em lote, com expansão em andamento para incluir copy e thumbnail de GMN no mesmo fluxo:
 
