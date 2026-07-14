@@ -34,14 +34,21 @@ Desenvolvi dois módulos de raciocínio especializado:
 
 - **skill-validar-arte-visual** — valida peça visual antes de publicar (12 critérios + 10 regras complementares + relatório estruturado de 6 seções), desacoplada de cliente ou ferramenta de geração
 
+## Skills Genéricas de Conteúdo
+
+- **skill-criar-legenda-instagram** — legenda + hashtags para post/carrossel do Instagram, desacoplada de cliente (qualquer marca)
+
 ## Marca Certa Digital
 
 - **skill-marca-certa-respostas** — engine genérica de respostas calibrada por brand profile (79 respostas aprovadas no primeiro ciclo)
 
 ## Sistema de Conteúdo — Autoescola Penha Car
 
+4 skills de conteúdo regidas por especificação de marca compartilhada (brand-profile + matriz de templates) e orquestradas por skill de calendário mensal — hoje integrando post único e carrossel em lote, com expansão em andamento para incluir copy e thumbnail de GMN no mesmo fluxo:
+
 - **skill-criar-post-penha-car** — post único Instagram (HTML com identidade visual + exportação PNG 1080×1350px via Playwright)
 - **skill-instagram-carousel-penha-car** — carrossel multi-slide para Instagram
-- **skill-calendario-penha-car** — planejamento e geração de calendário mensal em lote
 - **skill-criar-copy-gmn-penha-car** — copy para Google Meu Negócio
-- **skill-criar-thumbnail-gmn-penha-car** — thumbnail 4:3 para Google Meu Negócio
+- **skill-criar-thumbnail-gmn-penha-car** — thumbnail 4:3 (1200×900px) para Google Meu Negócio
+- **skill-calendario-penha-car** — planejamento e orquestração do calendário mensal em lote
+- **skill-classificar-icones-penha-car** — classifica e nomeia ícones novos do banco visual da marca, passo automático antes das demais skills escolherem ícone
