@@ -42,13 +42,13 @@ Desenvolvi dois módulos de raciocínio especializado:
 
 - **skill-marca-certa-respostas** — engine genérica de respostas calibrada por brand profile (79 respostas aprovadas no primeiro ciclo)
 
-## Sistema de Conteúdo
+## Sistema de Conteúdo Visual (client-agnostic)
 
-4 skills de conteúdo regidas por especificação de marca compartilhada (brand-profile + matriz de templates) e orquestradas por skill de calendário mensal — hoje integrando post único e carrossel em lote, com expansão em andamento para incluir copy e thumbnail de GMN no mesmo fluxo:
+6 skills de conteúdo, nenhuma com dado ou nome de cliente hardcoded — cada uma lê um `brand-profile.md` por cliente em tempo de execução (schema documentado, exemplo fictício incluso). Regidas por especificação de marca compartilhada e orquestradas por skill de calendário mensal — hoje integrando post único e carrossel em lote, com expansão em andamento para incluir copy e thumbnail de GMN no mesmo fluxo. Em uso em produção pela Autoescola Penha Car.
 
-- **skill-criar-post-penha-car** — post único Instagram (HTML com identidade visual + exportação PNG 1080×1350px via Playwright)
-- **skill-instagram-carousel-penha-car** — carrossel multi-slide para Instagram
-- **skill-criar-copy-gmn-penha-car** — copy para Google Meu Negócio
-- **skill-criar-thumbnail-gmn-penha-car** — thumbnail 4:3 (1200×900px) para Google Meu Negócio
-- **skill-calendario-penha-car** — planejamento e orquestração do calendário mensal em lote
-- **skill-classificar-icones-penha-car** — classifica e nomeia ícones novos do banco visual da marca, passo automático antes das demais skills escolherem ícone
+- **skill-criar-post-instagram** — post único Instagram (HTML com identidade visual do cliente + exportação PNG 1080×1350px via Playwright)
+- **skill-criar-carrossel-instagram** — carrossel multi-slide para Instagram
+- **skill-criar-copy-gmn** — copy editorial para Google Meu Negócio
+- **skill-criar-thumbnail-gmn** — thumbnail 4:3 (1200×900px) para Google Meu Negócio
+- **skill-calendario-conteudo** — planejamento e orquestração do calendário mensal em lote
+- **skill-classificar-icones** — classifica e nomeia ícones novos do banco visual da marca, passo automático antes das demais skills escolherem ícone
