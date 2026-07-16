@@ -13,6 +13,8 @@ Desenvolvi dois módulos de raciocínio especializado:
 - **Estrutural** — 7 zonas funcionais, protocolo de 24 cenários
 - **Decisório** — 6 disposições cognitivas, 11 heurísticas; validado em suíte de 10 cenários (10/10 aprovados)
 
+Também projetei um sistema de geração de conteúdo client-agnostic (6 skills, zero dado de cliente hardcoded) em uso em produção, um servidor MCP próprio de busca semântica de imagens, e um mecanismo genérico de confiabilidade de execução que audita se etapas obrigatórias de qualquer skill foram de fato cumpridas antes de entregar um resultado.
+
 ## Stack
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CLI-orange?style=flat)
