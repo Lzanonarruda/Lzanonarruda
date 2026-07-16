@@ -34,6 +34,10 @@ Desenvolvi dois módulos de raciocínio especializado:
 
 - **skill-validar-arte-visual** — valida peça visual antes de publicar (12 critérios + 10 regras complementares + relatório estruturado de 6 seções), desacoplada de cliente ou ferramenta de geração
 
+## Confiabilidade de Execução
+
+- **skill-auditoria-execucao** — cria e audita checklist de gates obrigatórios de outra skill (bootstrap/fechamento), reduzindo o risco de uma etapa ser pulada silenciosamente; desacoplada de cliente ou skill específica
+
 ## Skills Genéricas de Conteúdo
 
 - **skill-criar-legenda-instagram** — legenda + hashtags para post/carrossel do Instagram, desacoplada de cliente (qualquer marca)
