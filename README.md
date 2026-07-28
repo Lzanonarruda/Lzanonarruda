@@ -50,7 +50,8 @@ Também projetei um sistema de geração de conteúdo client-agnostic (6 skills,
 
 ## Automação Operacional
 
-- **ConsultaAulas** — monitor em tempo real de aulas práticas de habilitação, integrado ao portal e-CNH do Detran-SP, com alertas automáticos via bot do Telegram; motor de 5 regras de negócio, Python tipado (mypy --strict), Playwright headless e mais de 180 testes (incluindo integração real contra o portal)
+- **ConsultaAulas** — monitor em tempo real de aulas práticas de habilitação, integrado ao portal e-CNH do Detran-SP, com alertas automáticos via bot do Telegram e comandos sob demanda (/conferir, /agenda) com data opcional; motor de 5 regras de negócio, reconciliação de agenda com soft-delete, Python tipado (mypy --strict), Playwright headless e mais de 180 testes (incluindo integração real contra o portal)
+
 
 ## Sistema de Conteúdo Visual (client-agnostic)
 
